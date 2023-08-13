@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Los Santos Roleplay</title>
+  <style>
+    /* Base and reset styles */
+    body,
+    h1,
+    h2,
+    p,
+    a {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-image: linear-gradient(45deg, #222, #555);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    /* Main header */
+    header {
+      position: relative;
+      width: 100%;
+      min-height: 600px;
+      background: url('gta-cityscape.jpg') center/cover no-repeat;
+      /* Replace with a high-res GTA image */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem;
+      border: 3px solid #ff4500;
+      border-radius: 15px;
+      box-shadow: 0 0 10px #ff4500;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 1rem 5%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    nav a {
+      color: #ff4500;
+      font-weight: bold;
+      margin: 0 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    /* Main content */
+    main {
+      padding: 2rem 5%;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      border-bottom: 3px solid #ff4500;
+      padding-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ff4500;
+      display: inline-block;
+    }
+
+    a.cta-button {
+      display: inline-block;
+      background-color: #ff4500;
+      padding: 0.5rem 2rem;
+      border-radius: 25px;
+      margin-top: 1rem;
+      box-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
+      transition: transform 0.2s;
+    }
+
+    a.cta-button:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Footer */
+    footer {
+      padding: 1rem 5%;
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Los Santos Roleplay</h1>
+  </header>
+  <nav>
+    <a href="about.html">About Us</a>
+    <a href="applications.html">Applications</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Step into the vibrant world of Los Santos. From high-speed chases to intense business meetings, every corner of
+        the city holds a story waiting to be told. Whether you want to enforce the law or break it, the choice is yours.
+        Are you ready to leave your mark?</p>
+      <a href="about.html" class="cta-button">Learn More</a>
+    </section>
+    <section id="applications">
+      <h2>Join the Action</h2>
+      <p>Think you have what it takes to thrive in Los Santos? Apply now and prove yourself to the city's most notorious
+        figures. Whether you're applying for a life in law enforcement, emergency services, or the criminal underworld,
+        we've got a spot for you.</p>
+      <a href="applications.html" class="cta-button">Apply Now</a>
+    </section>
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <p>Got questions? We have answers. Discover more about the server mechanics, rules, and other essentials to get
+        you started on the right foot in Los Santos.</p>
+      <a href="faq.html" class="cta-button">Go to FAQ</a>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Need more information or have specific inquiries? Don't hesitate to get in touch. Our team is always here to
+        help you out.</p>
+      <a href="contact.html" class="cta-button">Contact Us</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Los Santos Roleplay - All rights reserved. Powered by GTA 5.</p>
+  </footer>
+</body>
+
+</html>
